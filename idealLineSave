@@ -1,0 +1,83 @@
+{
+    "lines": [
+        {
+            "id": 1,
+            "name": "Green Line",
+            "color": "#FA2B52",
+            "stations": [1,2,3,4,5],
+            "segments": [
+                {
+                    "id": 0,
+                    "type": 1,
+                    "beginningPosition": [12.121,3.512],
+                    "endPosition": [14.51,15.12]
+                },
+                {
+                    "id": 0,
+                    "type": 2,
+                    "beginningPosition": [14.51,15.12],
+                    "endPosition": [18.51,15.12]
+                }
+            ]
+        }
+    ],
+    "stations": [
+        {
+            "id": 1,
+            "name": "Abby Road",
+            "name2": "Westminster St",
+            "ADA": 2,
+            "lineIDs": [1,2],
+            "isTransfer": false,
+            "transferSegmentStart": [18.51,15.12],
+            "transferSegmentEnd": [18.51,20.12],
+            "crossPlatformTransfer": 0,
+            "isExpress": false,
+            "type": 0,
+            "position": [18.51,15.12]
+            
+        },
+        {
+            "id": 2,
+            "name": "Abby Road",
+            "lineIDs": [1,2],
+            "isTransfer": false
+        },
+        {
+            "id": 3,
+            "name": "Abby Road",
+            "lineIDs": [1,2],
+            "isTransfer": false
+        },
+        {
+            "id": 4,
+            "name": "Abby Road",
+            "lineIDs": [1,2],
+            "isTransfer": false
+        },
+        {
+            "id": 5,
+            "name": "Abby Road",
+            "lineIDs": [1,2],
+            "isTransfer": false
+        },
+        {
+            "id": 6,
+            "name": "Abby Road",
+            "lineIDs": [1,2],
+            "isTransfer": false
+        },
+        {
+            "id": 7,
+            "name": "Abby Road",
+            "lineIDs": [1,2],
+            "isTransfer": false
+        },
+        {
+            "id": 8,
+            "name": "Abby Road",
+            "lineIDs": [1,2],
+            "isTransfer": false
+        }
+    ]
+}
